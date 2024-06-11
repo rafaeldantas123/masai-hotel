@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(48, 48, 48);
+}
+
+.flex {
+    display: flex;
+}
+
+.inicio-do-site {
+    background-color: rgb(48, 48, 48);
+}
+
+.inicio-do-site img {
+    width: 350px;
+    margin-top: 270px;
+    margin-left: 200px;
+    border-radius: 30px;
+
+}
+
+.inicio-do-site h1 {
+    color: #fff;
+    padding: 50px 350px;
+    position: absolute;
+    font-size: 32px;
+}
+
+.span-2 {
+    font-weight: 10;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}
+
+.span-1 {
+    color: orangered;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}
+
+.inicio-do-site p {
+    margin-top: 300px;
+    padding: 40px 300px;
+    position: absolute;
+    margin-left: 300px;
+    font-size: 25px;
+    filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+    font-weight: 900;
+
+}
+
+section .img-p {
+    display: flex;
+    align-items: center;
+
+}
+
+.contato button {
+
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(0, 255, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 550px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+
+}
+
+button:hover {
+    box-shadow: 0px 0px 15px #00ff08;
+    transform: scale(1.05);
+
+}
+
+/*meio do site*/
+
+
+.meio-do-site {
+    background: #747474;
+    margin-top: 20px;
+
+}
+
+.titulo {
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.subtitulo {
+    margin-top: -30px;
+    padding: 100px;
+}
+
+.titulo h1 {
+    color: orangered;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+
+.subtitulo h1 {
+    color: orangered;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+
+.titulo p {
+    font-size: 18px;
+}
+
+.subtitulo p {
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+
+.meio-do-site .contato button {
+    margin-top: 400px;
+    margin-left: -830px;
+}
+
+/*falando sobre o nosso hotel*/
+
+.final-do-site {
+    background: #53535357;
+
+}
+
+
+.final-do-site h1 {
+    color: orangered;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}
+
+.final-do-site img {
+    width: 450px;
+    padding: 50px;
+    margin-right: 100px;
+    border-radius: 100px;
+}
+
+section .falando-sobre-hotel {
+    display: flex;
+    align-items: center;
+}
+
+.falando-sobre-hotel h1 {
+    position: absolute;
+    margin-top: -250px;
+    padding: 130px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    width: 800px;
+    margin-left: 50px;
+}
+
+.falando-sobre-hotel p {
+    padding: 90px 200px;
+    font-size: 20px;
+}
+
+.falando-sobre-hotel .contato {
+    margin-top: 40px;
+}
+
+.final-do-site .contato {
+    margin-top: -550px;
+    margin-left: 200px;
+}
