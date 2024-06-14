@@ -148,6 +148,13 @@ button:hover {
     padding: 50px;
     margin-right: 100px;
     border-radius: 100px;
+    margin-left: 80px;
+}
+
+
+.falando-sobre-hotel {
+    margin-left: -150px;
+    margin-top: 50px;
 }
 
 section .falando-sobre-hotel {
@@ -172,6 +179,7 @@ section .falando-sobre-hotel {
 
 .falando-sobre-hotel .contato {
     margin-top: 40px;
+    margin-left: 100px;
 }
 
 .final-do-site .contato {
